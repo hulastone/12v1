@@ -11,8 +11,8 @@ var Service = require('node-linux').Service;
 const path = __importStar(require("path"));
 // Create a new service object 
 var svc = new Service({
-    name: 'Hello World',
-    description: 'The nodejs.org example web server.',
+    name: 'go1',
+    description: 'The server.',
     script: path.join(__dirname, 'index.ts')
 });
 // Listen for the "install" event, which indicates the 
