@@ -3,7 +3,7 @@ import * as path from 'path' ;
 
 // Create a new service object 
 var svc = new Service({
-  name:'go2',
+  name:'go3',
   description: 'The server.',
   script: path.join(__dirname, 'index.js')
 });
