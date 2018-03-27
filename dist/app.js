@@ -13,7 +13,7 @@ const path = __importStar(require("path"));
 var svc = new Service({
     name: 'go1',
     description: 'The server.',
-    script: path.join(__dirname, 'index.ts')
+    script: path.join(__dirname, 'index.js')
 });
 // Listen for the "install" event, which indicates the 
 // process is available as a service. 
