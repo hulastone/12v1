@@ -11,7 +11,7 @@ var Service = require('node-linux').Service;
 const path = __importStar(require("path"));
 // Create a new service object 
 var svc = new Service({
-    name: 'go1',
+    name: 'go2',
     description: 'The server.',
     script: path.join(__dirname, 'index.js')
 });
